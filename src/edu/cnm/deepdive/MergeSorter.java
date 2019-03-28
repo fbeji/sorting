@@ -2,7 +2,9 @@ package edu.cnm.deepdive;
 
 import java.util.Arrays;
 
-public class MergeSorter {
+public class MergeSorter extends Sorter {
+
+  @Override
 
   public void sort(int[] input) {
 
